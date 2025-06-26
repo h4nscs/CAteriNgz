@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/png" href="Assets/Image/icon.png">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-box">
+            <a href="index.html" id="nav-merk">CAteriNgz</a>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-kanan">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="nav-btn" onclick="toAbt()">About Us</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-btn" onclick="toOffer()">Our Offers</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-btn" id="nav-btn-testi" onclick="toTesti()">Testimonial</button>
+                    </li>
+    
+                    
+                </ul>
+                <div class="nav-acc">
+                    <button onclick="toLogOut()">
+                    Log Out</button>
+                </div>
+            </div>
+            
+            
+        </div>
+    </nav>
+    <!-- ======================================= -->
+    <div class="welcome"><p id="welcome">Welcome "Username"!</p></div>
+    
+    <div class="promo">
+        <img src="Assets/Image/lasagna 2.jpg" alt="lasagna" class="promo-img">
+        
+        <div class="promo-text">
+            <p id="teks-atas">This Week</p>
+            <p id="teks-bawah">Special Promo</p>
+        </div>
+        <div class="lasagna">
+            <p id="teks-atas">Lasagna</p>
+            <p id="teks-bawah">Only 40k !</p>
+        </div>
+    </div>
+    <div class="box-parent">
+        <div class="box-menu">
+            <div class="text">
+                <p>Top #3</p>
+                <p>Last</p>
+                <p>Month</p>
+            </div>
+            
+            <div class="box1">
+                <img src="Assets/Image/Beef Bulgogi Rice Bowl.jpg" alt="Beef Bulgogi">
+                <p>Beef Bulgogi</p>
+            </div>
+            <div class="box1">
+                <img src="Assets/Image/nasi hainan.jpg" alt="Hainanese Chicken Rice">
+                <p>Hainanese Chicken Rice</p>
+            </div>
+            <div class="box1">
+                <img src="Assets/Image/chicken salted egg with fried rice.jpg" alt="Chicken Salted Egg with Fried Rice">
+                <p>Chicken Salted Egg with Fried Rice</p>
+            </div>
+            <button class="more" onclick="toOffer()">More Menu</button>
+        </div>
+    </div>
+    <div class="abt">
+        <div class="abt-title"><p>Our Mission</p></div>
+    <div class="abt-content">
+        <p >CAteriNgz's mission is to provide delicious and healthy food for busy people and provide a variety of meals choices to reach various groups, so that everyone can enjoy our masterpieces.</p>
+    </div>
+    </div>
+    
+<!-- ============================================ -->
+    <footer>
+        <div class="box-footer">
+            <div class="footer-atas">
+                <div class="tombol-footer">
+                    <button class="btn-bawah" onclick="toAbt()">
+                        About Us
+                    </button>
+                    <button class="btn-bawah" onclick="toOffer()">
+                        Our Offers
+                    </button>
+                    <button class="btn-bawah" onclick="toTesti()">
+                        Testimonial
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bawah">
+                <h1>CAteriNgz</h1>
+                <div class="kontak-footer">
+                Contact Us:
+                <div class="logo-medsos">
+                    <ul class="logo-medsos">
+                        <li><img class="logo-footer" src="Assets/Image/Facebook.png" alt=""></li>
+                        <li><img class="logo-footer" src="Assets/Image/Twitter.png" alt=""></li>
+                        <li><img class="logo-footer" src="Assets/Image/WhatsApp.png" alt=""></li>
+                        <li><img class="logo-footer" src="Assets/Image/Instagram_logo.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+</body>
+<script src="home.js"></script>
+</html>
