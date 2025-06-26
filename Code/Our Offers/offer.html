@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Offers</title>
+    <link rel="stylesheet" href="offer.css">
+    <link rel="icon" type="image/png" href="../../Assets/Image/icon.png">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-box">
+            <a href="../../index.html" id="nav-merk">CAteriNgz</a>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="nav-kanan">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <button class="nav-btn" onclick="toAbt()">About Us</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-btn" onclick="toOffer()">Our Offers</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-btn" id="nav-btn-testi" onclick="toTesti()">Testimonial</button>
+                    </li>
+    
+                    
+                </ul>
+                <div class="nav-acc">
+                    <button onclick="toLogOut()">
+                    Log Out</button>
+                </div>
+            </div>
+            
+            
+        </div>
+    </nav>
+<!-- =========================================== -->
+    <div class="promo">
+        <img src="../../Assets/Image/lasagna 2.jpg" alt="lasagna" class="promo-img">
+        
+        <div class="promo-text">
+            <p id="teks-atas">This Week</p>
+            <p id="teks-bawah">Special Promo</p>
+        </div>
+        <div class="lasagna">
+            <p id="teks-atas">Lasagna</p>
+            <p id="teks-bawah">Only 40k !</p>
+        </div>
+    </div>
+
+    
+        <div class="box-daily">
+            <p class="daily-title">Daily Menu</p>
+            <br>
+            <div class="box-menu">
+            
+                <div class="box1">
+                    <img src="../../Assets/Image/lasagna.jpg" alt="Lasagna">
+                    <div class="ket-bawah"><p class="name">Lasagna</p>
+                        <p class="harga">
+                            Rp 40K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/chicken salted egg with fried rice.jpg" alt="Chicken Salted Egg with Fried Rice">
+                    <div class="ket-bawah">
+                        <p class="name">Chicken Salted Egg with Fried Rice</p>
+                    <p class="harga">
+                        Rp 25K </p>
+                    <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/chicken fried rice2.jpg" alt="Chicken Fried rice">
+                    <div class="ket-bawah"><p class="name">Chicken Fried Rice</p>
+                        <p class="harga">
+                            Rp 12K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Butter Rice Chicken Teriyaki.jpg" alt="Butter Rice with Chicken Teriyaki">
+                    <div
+                    class="ket-bawah">
+                    <p class="name">Butter Rice with Chicken Teriyaki</p>
+                    <p class="harga">
+                        Rp 25K </p>
+                    <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/chicken cordon bleu with mix veggies.jpg" alt="Chicken Cordon Bleu with Mix Veggies">
+                    <div class="ket-bawah">
+                        <p class="name">Chicken Cordon Bleu with Mix Veggies</p>
+                    <p class="harga">
+                        Rp 35K </p>
+                    <button class="btn-order">Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Gurame Asam Manis.jpg" alt="Fish with Sweet and Sour Sauce">
+                    <div class="ket-bawah"><p class="name">Fish with Sweet and Sour Sauce</p>
+                        <p class="harga">
+                            Rp 25K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/nasi hainan.jpg" alt="Hainanese Chicken Rice">
+                    <div class="ket-bawah"><p class="name">Hainanese Chicken Rice</p>
+                        <p class="harga">
+                            Rp 25K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Beef Bulgogi Rice Bowl.jpg" alt="Beef Bulgogi">
+                    <div class="ket-bawah"><p class="name">Beef Bulgogi</p>
+                        <p class="harga">
+                            Rp 25K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Sushi-Sashimi.jpg" alt="Sushi and Salmon Sashimi">
+                    <div class="ket-bawah"><p class="name">Sushi and Salmon Sashimi</p>
+                        <p class="harga">
+                            Rp 40K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Mi goreng.jpg" alt="Fried Noodle">
+                    <div class="ket-bawah"><p class="name">Fried Noodle</p>
+                        <p class="harga">
+                            Rp 15K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/Chicken katsu.jpg" alt="Chicken Katsu">
+                    <div class="ket-bawah"><p class="name">Chicken Katsu</p>
+                        <p class="harga">
+                            Rp 20K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="box1">
+                    <img src="../../Assets/Image/soto.jpg" alt="Soto">
+                    <div class="ket-bawah"><p class="name">Soto</p>
+                        <p class="harga">
+                            Rp 18K </p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                
+            
+        </div>
+    </div>
+
+    
+    <p class="wed-title">Wedding Package</p>
+    <div class="wed-1-parent">
+        <div class="wed1-text item">
+            <div class="wed1-text">
+                <p class="wed1-title">Wedding Package #1</p>
+                <p>Rp 100.000 / pax</p>
+                <p>Rp 9.500.000 / 100 pax</p>
+                <button>Arrange Order</button>
+            </div>
+        </div>
+        <div class="wed1-menu item">
+            <div class="wed1-top">
+                <div class="box2">
+                    <img src="../../Assets/Image/kroket.jpg" alt="">
+                    <p class="title">Snack</p>
+                    <p class="ket">Croquette / Onde-Onde +
+                        Roasted Nuts</p>
+                </div>
+                <div class="box2">
+                    <img src="../../Assets/Image/Sup asparagus.jpg" alt="">
+                    <p class="title">Soup</p>
+                    <p class="ket">Asparagus / Corn Cream / Mushroom Cream</p>
+                </div>
+                <div class="box2">
+                    <img src="../../Assets/Image/Brokoli2.jpg" alt="">
+                    <p class="title">Vegetables</p>
+                    <p class="ket">Broccoli with Beef</p>
+                </div>
+            </div>
+            <div class="wed1-bot">
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/nasi_goreng_oriental.jpg" alt="">
+                    <p class="title">Oriental Food</p>
+                    <p class="ket">Oriental Fried Rice</p>
+                </div>
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/fish dishes.jpg" alt="">
+                    <p class="title">Chicken / Fish</p>
+                    <p class="ket">Baked Snapper / Sweet Sour Gurame</p>
+                </div>
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/Tea.jpg" alt="">
+                    <p class="title">Beverages</p>
+                    <p class="ket">Tea + Mineral Water + Soft Drink</p>
+                </div>
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/Dessert.jpg" alt="">
+                    <p class="title">Dessert</p>
+                    <p class="ket">Chocolate Molten Cake</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ==============================================================================================================================-->
+
+
+    <div class="wed-1-parent">
+        <div class="wed1-teks item">
+            <div class="wed1-text">
+                <p class="wed1-title">Wedding Package #2</p>
+                <p>Rp 65.000 / pax</p>
+                <p>Rp 6.000.000 / 100 pax</p>
+                <button>Arrange Order</button>
+            </div>
+        </div>
+        <div class="wed1-menu item">
+            <div class="wed1-top">
+                <div class="box2">
+                    <img src="../../Assets/Image/kroket.jpg" alt="">
+                    <p class="title">Snack</p>
+                    <p class="ket">Croquette + Lemper</p>
+                </div>
+                <div class="box2">
+                    <img src="../../Assets/Image/Sup asparagus.jpg" alt="">
+                    <p class="title">Soup</p>
+                    <p class="ket">Zuppa Soup</p>
+                </div>
+                <div class="box2">
+                    <img src="../../Assets/Image/soto.jpg" alt="">
+                    <p class="title">Soto</p>
+                    <p class="ket">Lamongan Style Soto</p>
+                </div>
+            </div>
+            <div class="wed1-bot">
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/Gule Kambing.jpg" alt="">
+                    <p class="title">Gulai Kambing</p>
+                    <p class="ket">Gulai Kambing</p>
+                </div>
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/Siomay Bandung.jpg" alt="">
+                    <p class="title">Siomay Bandung</p>
+                    <p class="ket">Siomay Bandung</p>
+                </div>
+                <div class="box2-bot">
+                    <img src="../../Assets/Image/Jus Jambu.jpg" alt="">
+                    <p class="title">Beverages</p>
+                    <p class="ket">Guava + Orange + Mineral Water</p>
+                </div>
+                <div class="box2-bot">
+                   <img src="../../Assets/Image/Es Pankuk.jpg" alt="">
+                    <p class="title">Dessert</p>
+                    <p class="ket">Es Pankuk</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ============================================ -->
+    <footer>
+        <div class="box-footer">
+            <div class="footer-atas">
+                <div class="tombol-footer">
+                    <button class="btn-bawah" onclick="toAbt()">
+                        About Us
+                    </button>
+                    <button class="btn-bawah" onclick="toOffer()">
+                        Our Offers
+                    </button>
+                    <button class="btn-bawah" onclick="toTesti()">
+                        Testimonial
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-bawah">
+                <h1>CAteriNgz</h1>
+                <div class="kontak-footer">
+                Contact Us:
+                <div class="logo-medsos">
+                    <ul class="logo-medsos">
+                        <li><img class="logo-footer" src="../../Assets/Image/Facebook.png" alt=""></li>
+                        <li><img class="logo-footer" src="../../Assets/Image/Twitter.png" alt=""></li>
+                        <li><img class="logo-footer" src="../../Assets/Image/WhatsApp.png" alt=""></li>
+                        <li><img class="logo-footer" src="../../Assets/Image/Instagram_logo.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+</body>
+<script src="offer.js"></script>
+</html>

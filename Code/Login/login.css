@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'josefin';
+    src: url('../../Assets/Fonts/Josefin/JosefinSlab-Bold.ttf') format('truetype');
+  }
+
+  
+  
+  @font-face {
+    font-family: 'josefin-sans';
+    src: url('../../Assets/Fonts/Josefin-Sans/JosefinSans-Regular.ttf') format('truetype');
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFE1E1;
+  }
+
+.banner-atas{
+    top:0%;
+    position: absolute;
+    width: 100%;
+    background-color: #8C1C13;
+    height: 5%;
+    z-index: 50;
+    overflow-x: none;
+}
+
+.banner-bawah{
+    width: 100%;
+    background-color: #8C1C13;
+    height: 5%;
+    z-index: 51;
+    top:100%;
+    position: absolute;
+    transform: translate(0%, -100%);
+    
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    max-height: 80%;
+    background-color: #8C1C13;
+    color: white;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.title{
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: 'josefin-sans';
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.already, .acc a {
+  display: inline;
+}
+
+.acc a{
+  text-decoration: none;
+  color: white;
+}
+
+.acc{
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  width: fit-content;
+  font-family: 'josefin-sans';
+  font-size: 12px;
+  margin-top: -2%;
+}
+
+.form{
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  width: 60%;
+  height: 6vh;
+  font-family: 'josefin-sans';
+  margin-top: 3vh;
+}
+
+.login{
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  border-width: 0px;
+  font-family: 'josefin-sans';
+  width: 60%;
+  border-radius: 100px;
+  min-height: 3vh;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: 3vh;
+  height: 24px;
+}
+
+.login:hover{
+  background-color: #ffb7b7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.warning{
+  font-family: 'josefin-sans';
+  font-size: 12px;
+  width: 60%;
+  margin-left: 50%;
+  transform: translate(-50%, 0%);
+  margin-top: 3px;
+  opacity: 0;
+}
+
+@media (max-width:768px){
+
+  .box{
+    width: 80%;
+    min-width: 80%;
+  }
+
+  .form{
+    width: 70%;
+    height: 30px;
+  }
+  
+  .warning{
+    width: 70%;
+  }
+
+  .login{
+    width: 70%;
+  }
+}
+
+.warning.show{
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}

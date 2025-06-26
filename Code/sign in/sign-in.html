@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-in.css">
+    <link rel="icon" type="image/png" href="../../Assets/Image/icon.png">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="banner-atas">
+        
+    </div>
+    <div class="box">
+     <p class="title">Sign in</p>
+     <div class="acc">
+        <p class="already">Already have an account? </p>
+        <a href="../Login/login.html">Click here</a>
+     </div> 
+     <form action="">
+      <input type="text" name="username" id="username" class="form" placeholder="Username" onchange="cekUsername()">
+      <div id="warning-username" class="warning">Please input your username with less than 12 characters</div>
+
+
+      <input type="text" name="email" id="email" class="form" placeholder="Email" >
+      <div id="warning-email" class="warning" >Please input email that ended with @gmail</div>
+
+      <form id="dateForm">
+      <input type="text" name="ultah" id="ultah" class="form" placeholder="Date of Birth" onfocus="(this.type='date')" onblur="this.type='text'" >
+      <div id="warning-ultah" class="warning">Please input your Date of Birth!</div>
+     </form>
+
+
+      <input type="text" name="address" id="address" class="form" placeholder="Address" >
+      <div id="warning-address" class="warning">Please input your address</div>
+
+
+      <div class="radio">
+         <p>Gender:</p>
+         <div class="laki"><input type="radio" name="gender" id="male"><label for="male">Male</label></div>
+         <div class="cewek">
+             <input type="radio" name="gender" id="female"><label for="female">Female</label>
+         </div>
+      
+      </div>
+      <div id="warning-gender" class="warning">Please choose your gender</div>
+      <input type="password" name="pw" id="pw" class="form" placeholder="Password">
+      <div id="warning-pw" class="warning">Your Password must contains at least one of (!@#$%&) and contains more than 5 characters!</div>
+      <input type="password" name="conf-pw" id="conf-pw" class="form" placeholder="Confirm Password">
+      <div id="warning-conf-pw" class="warning">Confirm password must match the inputted password!</div>
+      <div class="check">
+         <input type="checkbox" name="policy" class="policy" id="policy"><label for="policy" class="policy">By clicking this box I agree that I have read the privacy policy</label>
+      </div>
+      <div id="warning-policy" class="warning">Please agree with the privacy policy before continue</div>
+      <br>
+     <button type="submit"class="create" onclick="cekForm()">Create Account</button>
+      
+     </div>
+     </form> 
+     
+                
+   <div class="banner-bawah"></div>
+   <script type="text/javascript" src="sign-in.js"></script>
+</body>
+<script type="text/javascript" src="sign-in.js"></script>
+</html>
